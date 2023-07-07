@@ -40,3 +40,17 @@ main{
 .btn:hover{
     background-color: rebeccapurple;
 }
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 3px solid black;
+    padding: 10px;
+}
+.bold{
+    font-weight: bold;
+    text-align: center;
+}
+caption{
+    padding: 10px;
+}
