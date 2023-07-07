@@ -1,19 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <hr>
-    <div>
-        <label for="search"> Search your Image here: 
-            <input type="text" name="search" id="search" placeholder="Kung Fu Panda">
-            <input type="button" value="search">
-        </label> 
 
-    </div>
-    
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <hr>
+            <div>
+                <label for="search"> Search your Image here:
+                    <input type="text" name="search" id="search" placeholder="Kung Fu Panda">
+                    <input class="btn" type="button" value="Search">
+                </label> <br><br>
+                <img src="panda.jpg" alt="" width="400px"><br>
+                <a href="#">For more click here</a>
+            </div>
+        </section>
+        <section>
+            <hr>
+            <label for="Feedback">Feedback Form:</label><br>
+            <label for="name">Name: </label><br>
+            <input type="text" name="name" id="name"><br>
+            <label for="date">Date: </label><br>
+            <input type="date" name="date" id="date">
+            <br>
+            <label for="comment">Comment: </label><br>
+            <textarea name="comment" id="comment" cols="60" rows="4"></textarea>
+            <br><br>
+            <input class="btn" type="submit" value="Submit">
+
+        </section>
+
+
+    </main>
+
+
 </body>
+
 </html>

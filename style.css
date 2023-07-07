@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+nav > ul > li{
+    list-style: none;
+    padding: 20px;
+    
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+nav > ul > li > a:hover{
+    color: rebeccapurple;
+    font-size: larger;
+}
+
+main{
+    margin: 10px;
+}
+
+.btn{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: bold;
+}
+.btn:hover{
+    background-color: rebeccapurple;
+}
